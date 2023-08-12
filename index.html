@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LinkedNode</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <h1>LinkedNode</h1>
+    <p>Strumento per salvare i post che trovi su Linkedln, senza utilizzare le API di Linkedln.</br>I post vengono salvati su un database Notion.</p>
+   
+    
+    <form action="/aggiungi" method="POST">
+
+        <label for="post">Post:</label>
+        <input type="text" id="post" name="post">
+  
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url">
+
+        <label for="autore">Autore:</label>
+        <input type="text" id="autore" name="autore">
+
+        <input type="submit" value="Aggiungi al database">
+    </form>
+</body>
+</html>
